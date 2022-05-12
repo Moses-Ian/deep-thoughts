@@ -10,7 +10,7 @@ const resolvers = {
 					.select('-__v -password')
 					.populate('thoughts')
 					.populate('friends');
-
+				console.log(userData);;
 				return userData;
 			}
 
